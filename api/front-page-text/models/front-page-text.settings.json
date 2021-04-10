@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "front_page_texts",
+  "info": {
+    "name": "front page text",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "jumbotronhead": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    }
+  }
+}
